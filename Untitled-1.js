@@ -1,11 +1,17 @@
-/*6function ampunlheita(n: number) {
+let readline = require('readline');
+let resp = "";
 
-  for (let i = 0; i < n; i++) { 
-    for (let j = 0; j < n; j++) {
+let leitor = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
 
-    } 
-  }
-}*/
+leitor.question("Indique o tamanho da ampulheita?\n", function(answer) {
+    let resp = Number(answer);
+    design(resp);
+    leitor.close();
+});
+
 
 function design(number) {
   let figureTop = "";
@@ -83,5 +89,3 @@ function addHashes(line, colum) {
 
   return response;
 }
-
-design(50);
