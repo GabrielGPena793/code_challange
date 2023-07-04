@@ -1,5 +1,4 @@
 let readline = require('readline');
-let resp = "";
 
 let leitor = readline.createInterface({
     input: process.stdin,
