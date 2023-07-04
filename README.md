@@ -1,5 +1,3 @@
-# Fase 1 - Desafio de Lógica
-
 ## Cálculo da Ampulheta
 
 ### Introdução 
